@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/btnHelloworld"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/primerParcialBtn"
+            android:layout_width="178dp"
+            android:layout_height="51dp"
+            android:backgroundTint="#96000D"
+            android:text="Primer Parcial"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.915"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gameBtn"
+            app:layout_constraintVertical_bias="0.024" />
+
+        <Button
+            android:id="@+id/geoQuizBtn"
+            android:layout_width="178dp"
+            android:layout_height="54dp"
+            android:backgroundTint="#96000D"
+            android:text="GeoQuiz"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.915"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/primerParcialBtn"
+            app:layout_constraintVertical_bias="0.02" />
+
+        <ImageView
+            android:id="@+id/omnimanImg"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.062"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.196"
+            app:srcCompat="@drawable/omniman" />
+
+        <Button
+            android:id="@+id/holaBtn"
+            android:layout_width="181dp"
+            android:layout_height="54dp"
+            android:backgroundTint="#2196F3"
+            android:text="Hello World"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.915"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ocultarBtn"
+            app:layout_constraintVertical_bias="0.034" />
+
+        <Button
+            android:id="@+id/gameBtn"
+            android:layout_width="178dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#2196F3"
+            android:text="Tap Game"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.915"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toastBtn"
+            app:layout_constraintVertical_bias="0.016" />
+
+        <Button
+            android:id="@+id/pokeDexBtn"
+            android:layout_width="173dp"
+            android:layout_height="53dp"
+            android:backgroundTint="#2196F3"
+            android:text="PokeDex"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.916"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/geoQuizBtn"
+            app:layout_constraintVertical_bias="0.034" />
+
+        <Button
+            android:id="@+id/rpsBtn"
+            android:layout_width="180dp"
+            android:layout_height="57dp"
+            android:backgroundTint="#2196F3"
+            android:text="Rock Papper Sissors"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.025"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/omnimanImg"
+            app:layout_constraintVertical_bias="0.058" />
+
+        <Button
+            android:id="@+id/toastBtn"
+            android:layout_width="180dp"
+            android:layout_height="49dp"
+            android:backgroundTint="#009688"
+            android:text="Toast Activity"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.915"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/holaBtn"
+            app:layout_constraintVertical_bias="0.018" />
+
+        <Button
+            android:id="@+id/ocultarBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="#EF3535"
+            android:text="Ocultar imagen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.812"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/lottieAnimBtn"
+            android:layout_width="173dp"
+            android:layout_height="51dp"
+            android:text="Lottie Anim"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.917"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pokeDexBtn"
+            app:layout_constraintVertical_bias="0.056" />
+
+        <Button
+            android:id="@+id/shakeGestureBtn"
+            android:layout_width="176dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="564dp"
+            android:text="Shake Gesture"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rpsBtn"
+            app:layout_constraintVertical_bias="0.307" />
+
+        <Button
+            android:id="@+id/mapsBtn"
+            android:layout_width="150dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="456dp"
+            android:backgroundTint="#673AB7"
+            android:text="Maps"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/qrBtn"
+            android:layout_width="163dp"
+            android:layout_height="47dp"
+            android:layout_marginBottom="532dp"
+            android:text="Qr Activity"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.083"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shakeGestureBtn"
+            app:layout_constraintVertical_bias="0.857" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
